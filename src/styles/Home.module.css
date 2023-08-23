@@ -59,3 +59,53 @@
 .waitlist_form .sign_up_btn:hover {
     background-color: #bdbdbd;
 }
+
+
+@media screen and (min-width: 0px) and (max-width: 360px) {
+    .waitlist_form {
+        margin: 3em 0;
+    }
+
+    .bg_img {
+        height: 180px;
+    }
+
+    .name_input,
+    .email_input {
+        width: 220px;
+    }
+}
+
+/* AVERAGE MOBILE DEVICES  */
+@media screen and (min-width: 360px) and (max-width: 480px) {
+
+    .waitlist_form {
+        margin: 3em 0;
+    }
+
+    .bg_img {
+        height: 180px;
+    }
+
+    .name_input,
+    .email_input {
+        width: 320px;
+    }
+}
+
+
+/* IPADS AND TABLETS  */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .waitlist_form {
+        margin: 3em 0;
+    }
+
+    .bg_img {
+        height: 300px;
+    }
+
+    .name_input,
+    .email_input {
+        width: 420px;
+    }
+}
