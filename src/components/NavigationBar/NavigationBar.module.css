@@ -1,0 +1,16 @@
+.container_nav {
+    font-size: 1em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+
+    border-width: 1px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-color: #333;
+    border-style: solid;
+
+    padding: 0.8em 0.8em 1.2em 0.8em;
+}
+
+.container_nav p {}

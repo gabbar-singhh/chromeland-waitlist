@@ -1,0 +1,12 @@
+.container_footer {
+    border-width: 1px;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    border-color: #333;
+    border-style: solid;
+    width: 100%;
+    font-size: 1em;
+    text-align: center;
+    padding: 1.2em 0.8em 0.8em 0.8em;
+}
