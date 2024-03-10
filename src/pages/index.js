@@ -15,16 +15,16 @@ export default function Home() {
 
   let itemData = [
     { original: "/assets/0.svg" },
-    { original: "/assets/1.svg" },
-    { original: "/assets/2.svg" },
-    { original: "/assets/3.svg" },
-    { original: "/assets/4.svg" },
-    { original: "/assets/5.svg" },
-    { original: "/assets/6.svg" },
-    { original: "/assets/7.svg" },
-    { original: "/assets/8.svg" },
-    { original: "/assets/9.svg" },
-    { original: "/assets/10.svg" },
+    { original: "/assets/1.1.webp" },
+    { original: "/assets/2.2.webp" },
+    { original: "/assets/3.3.webp" },
+    { original: "/assets/4.4.webp" },
+    { original: "/assets/5.5.webp" },
+    { original: "/assets/6.6.webp" },
+    { original: "/assets/7.7.webp" },
+    { original: "/assets/8.8.webp" },
+    { original: "/assets/9.9.webp" },
+    { original: "/assets/10.10.webp" },
   ];
   return (
     <>
