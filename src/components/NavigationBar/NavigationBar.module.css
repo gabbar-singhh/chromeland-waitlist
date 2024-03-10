@@ -1,8 +1,7 @@
 .container_nav {
-    font-size: 1em;
+    font-size: 1.1em;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-
     border-width: 1px;
     border-top: 0;
     border-right: 0;
@@ -10,7 +9,15 @@
     border-color: #333;
     border-style: solid;
 
-    padding: 0.8em 0.8em 1.2em 0.8em;
+    padding: 0.5em 0.5em 0.6em 0.6em;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .container_nav p {}
+
+.container_nav .logo {
+    border-radius: 4px;
+}

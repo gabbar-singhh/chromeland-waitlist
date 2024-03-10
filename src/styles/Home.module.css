@@ -1,111 +1,81 @@
-.main {
-    height: 100vh;
-}
+.section {
+    font-family: "Inter", sans-serif;
 
-.bg_img {
-    background-image: url(/bg_img.jpg);
-    background-size: cover;
-    background-position: center;
-
-    width: 100%;
-    height: 500px;
-}
-
-.waitlist_form {
-    margin: 5em 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1em;
-    font-weight: 500;
+    justify-content: center;
+    margin: 1.4rem 0;
+
+    overflow: hidden;
 }
 
-.waitlist_form p {
-    font-size: 1.5em;
-    margin-bottom: 1em;
-}
-
-.waitlist_form span {
-    margin-bottom: 1em;
-
+.section h1 {
     display: flex;
-    flex-direction: column;
-    justify-items: center;
-    gap: 0.5em;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
 }
 
-.name_input,
-.email_input {
-    outline: none;
-    padding: 0.8em;
-    font-size: 1.1em;
-    background-color: #111;
-    border: 1px solid #333;
-    border-radius: 6px;
-    color: #fff;
-    width: 460px;
+.section h1 span {
+    font-size: 3rem;
+    margin-left: 0.8rem;
 }
 
-.waitlist_form .sign_up_btn {
-    background-color: #ededed;
-    color: #0a0a0a;
-    font-size: 1em;
-    cursor: pointer;
-    padding: 0.6em 1em;
-    border-radius: 6px;
+.section .paragraph {
+    margin-bottom: 2.4em;
+    font-size: 1rem;
+}
+
+.section .image_slider_container {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.image-slider-container .slick-prev:before,
+.image-slider-container .slick-next:before {
+    color: black;
+}
+
+.section .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 
 }
 
-.waitlist_form .sign_up_btn:hover {
-    background-color: #bdbdbd;
-}
+@media (max-width: 640px) {
 
-
-@media screen and (min-width: 0px) and (max-width: 360px) {
-    .waitlist_form {
-        margin: 3em 0;
+    .section {
+        height: 80dvh;
+        overflow: hidden;
+        margin: 0 1em;
     }
 
-    .bg_img {
-        height: 180px;
+    .section h1 {
+        font-size: 1.2rem;
+
     }
 
-    .name_input,
-    .email_input {
-        width: 220px;
-    }
-}
-
-/* AVERAGE MOBILE DEVICES  */
-@media screen and (min-width: 360px) and (max-width: 480px) {
-
-    .waitlist_form {
-        margin: 3em 0;
+    .section h1 span {
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
-    .bg_img {
-        height: 180px;
+    .image_slider_container {
+        display: none;
     }
 
-    .name_input,
-    .email_input {
-        width: 320px;
-    }
-}
-
-
-/* IPADS AND TABLETS  */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    .waitlist_form {
-        margin: 3em 0;
+    .section h1 .h1_span {
+        display: none;
     }
 
-    .bg_img {
-        height: 300px;
-    }
 
-    .name_input,
-    .email_input {
-        width: 420px;
+    .section .paragraph {
+        color: #ffffffdb;
     }
 }
